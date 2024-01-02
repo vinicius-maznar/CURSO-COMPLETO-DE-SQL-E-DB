@@ -1,6 +1,4 @@
-# 🔌 **CONECTANDO-SE AO BANCO DE DADOS**
-
-## 👩‍🏫 **DEFINIÇÕES FUNDAMENTAIS**
+# 👩‍🏫 **DEFINIÇÕES FUNDAMENTAIS**
 
 - **BANCO DE DADOS:** 	
 	Conjunto de arquivos agrupados, geralmente estabelecendo algum tipo de relação entre si, localizados no HD.
