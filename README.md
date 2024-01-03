@@ -29,9 +29,9 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 ## Seção 1️⃣: Introdução a Base de Dados.
 1. [Definições Fundamentais](https://github.com/vinicius-maznar/Banco_de_Dados-e-SQL/blob/main/01-Definicoes_Fundamentais.md)
 2. [Arquitetura de Software](https://github.com/vinicius-maznar/Banco_de_Dados-e-SQL/blob/main/02%20-%20Arquitetura%20de%20Software%20.md)
-3. []()
-4. []()
-5. []()
+3. [Requisitos para a Modelagem de Dados Conceitual](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/03%20-%20Requisitos%20para%20Modelagem%20de%20Dados%20Conceitual.md)
+4. [Criando o Banco de Dados](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/04%20-%20Criando%20o%20Banco%20de%20Dados.md)
+5. [Criando Tabela no Banco de Dados](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/05%20-%20Criando%20Tabela%20no%20Banco%20de%20Dados.md)
 6. []()
 7. []()
 8. []()
