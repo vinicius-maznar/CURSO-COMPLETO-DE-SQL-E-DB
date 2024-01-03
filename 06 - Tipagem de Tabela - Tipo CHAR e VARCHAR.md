@@ -2,6 +2,16 @@
 
 - Um banco tipado corretamente é um banco mais leve e mais rápido.
 
+## ↔ **REGISTRO OU TUPLA**
+
+- As LINHAS de uma tabela (Junção de todas as colunas) são chamadas de REGISTRO ou TUPLA.
+
+- (LINHAS DE UMA TABELA = REGISTROS OU TUPLA).
+
+## ⬜ **CAMPOS**
+
+- Cada célula isolada de uma tabela é chamada de CAMPO.
+
 ## 👯‍♂️ **TIPO CHAR E VARCHAR**
 
 - 1 caracter corresponde a 1 byte (1 caracter = 1 byte).
