@@ -32,7 +32,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 3. [Requisitos para a Modelagem de Dados Conceitual](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/03%20-%20Requisitos%20para%20Modelagem%20de%20Dados%20Conceitual.md)
 4. [Criando o Banco de Dados](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/04%20-%20Criando%20o%20Banco%20de%20Dados.md)
 5. [Criando Tabela no Banco de Dados](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/05%20-%20Criando%20Tabela%20no%20Banco%20de%20Dados.md)
-6. []()
+6. [Tipagem de Tabela - Tipo Char e Varchar](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/06%20-%20Tipagem%20de%20Tabela%20-%20Tipo%20CHAR%20e%20VARCHAR.md)
 7. []()
 8. []()
 9. []()
