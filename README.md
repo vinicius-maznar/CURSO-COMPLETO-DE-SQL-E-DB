@@ -37,7 +37,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 8. [Partes da Query (SELEÇÃO, PROJEÇÃO E JUNÇÃO)](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/08%20-%20Partes%20da%20Query%20(SELE%C3%87%C3%83O%2C%20PROJE%C3%87%C3%83O%20E%20JUN%C3%87%C3%83O).md)
 9. [Filtros e Seleções](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/09%20-%20FIltros%20e%20Sele%C3%A7%C3%B5es.md)
 10. [Exercício Proposto: Livraria](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/10%20-%20Exerc%C3%ADcio%20Proposto%20Livraria.md)
-11. [Script do Exercício Proposto: Livraria]()
+11. [Script do Exercício Proposto: Livraria](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/11%20-%20Script%20do%20Exerc%C3%ADcio%20Proposto:%20Livraria.sql)
 12. []()
 13. []()
 14. []()
