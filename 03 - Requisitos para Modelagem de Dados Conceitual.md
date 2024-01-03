@@ -13,7 +13,8 @@
 ## 📝👩‍🏫 **EXEMPLO DE UM DOCUMENTO DE REQUISITOS**
 
 ```
-- O cliente Tera Comércio de Produtos S.A, solicitou a modelagem de um banco de dados para cadastro dos seus clientes. A função da Unidados é a análise dos requisitos junto aos usuários para a correta construção do produto. 
+- O cliente Tera Comércio de Produtos S.A, solicitou a modelagem de um banco de dados para cadastro dos seus clientes.
+A função da Unidados é a análise dos requisitos junto aos usuários para a correta construção do produto. 
 		
 - O cliente deseja que inicialmente os scripts sejam construídos para o Banco de Dados MySQL, 
 porém, posteriormente pode haver mudança no ambiente e consequentemente adaptação dos scripts para outros produtos de SGBD.
