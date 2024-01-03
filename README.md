@@ -28,7 +28,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 
 ## Seção 1️⃣: Introdução a Base de Dados.
 1. [Definições Fundamentais](https://github.com/vinicius-maznar/Banco_de_Dados-e-SQL/blob/main/01-Definicoes_Fundamentais.md)
-2. []()
+2. [Arquitetura de Software](https://github.com/vinicius-maznar/Banco_de_Dados-e-SQL/blob/main/02%20-%20Arquitetura%20de%20Software%20.md)
 3. []()
 4. []()
 5. []()
