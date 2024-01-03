@@ -2,7 +2,7 @@
 
 Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo Professor Felipe Mafra, na plataforma Udemy.
 
-## Propósta Didática
+## 👩‍🏫 Propósta Didática
 
 - Entender a diferença entre um Administrador de Dados e um DBA
 - Criar bancos de dados consistentes do ponto de infraestrutura e modelagem.
