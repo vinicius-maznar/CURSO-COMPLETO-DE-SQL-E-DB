@@ -24,7 +24,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 - Utilizar softwares de modelagem
 - Aplicar seguramente os relacionamentos 1 x 1 , 1 x N, N x N, Generalização e Autorelacionamento, entendendo o porquê de cada um
 
-# Sumário
+# 📄 Sumário
 
 ## Seção 1️⃣: Introdução a Base de Dados.
 1. [Definições Fundamentais](https://github.com/vinicius-maznar/Banco_de_Dados-e-SQL/blob/main/01-Definicoes_Fundamentais.md)
