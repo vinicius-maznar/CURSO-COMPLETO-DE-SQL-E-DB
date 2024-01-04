@@ -44,7 +44,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 15. [Filtrando Valores Nulos](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/15%20-%20Filtrando%20Valores%20Nulos.md)
 16. [A Cláusula UPDATE](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/16%20-%20A%20Cl%C3%A1usula%20UPDATE.md)
 17. [A Cláusula Delete](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/17%20-%20A%20Cl%C3%A1usula%20DELETE.md)
-18. []()
+18. [Começando a Modelar os Dados](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/18%20-%20Come%C3%A7ando%20a%20Modelar%20os%20Dados.md)
 19. []()
 20. []()
 21. []()
