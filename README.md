@@ -39,7 +39,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 10. [Exercício Proposto: Livraria](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/10%20-%20Exerc%C3%ADcio%20Proposto%20Livraria.md)
 11. [Script do Exercício Proposto: Livraria](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/11%20-%20Script%20do%20Exerc%C3%ADcio%20Proposto:%20Livraria.sql)
 12. [SCript Exercício Livraria (Correção)](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/12%20-%20Script%20Exerc%C3%ADcio%20Livraria%20(Corre%C3%A7%C3%A3o).sql)
-13. [Exercício Proposto Funcionários: Construção e Tarefas](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/14%20-%20Exerc%C3%ADcio%20Proposto%20Funcionarios%3A%20Constru%C3%A7%C3%A3o%20e%20Terafas.sql)
+13. [Operadores Lógicos 'OU' e 'AND'](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/13%20-%20Operadores%20L%C3%B3gicos.md)
 14. []()
 15. []()
 16. []()
