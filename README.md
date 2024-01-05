@@ -51,7 +51,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 22. [Chave Primaria](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/22%20-%20Chave%20Primaria.md)
 23. [Chave Estrangeira](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/23%20-%20Chave%20Estrangeira.md)
 24. [Modelando o Banco de Dados COMERCIO: Implementando PRIMARY KEY e FOREIGN KEY](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/24%20-Modelando%20o%20Banco%20de%20Dados%20COMERCIO:%20Implementando%20PRIMARY%20KEY%20e%20FOREIGN%20KEY.sql)
-25. []()
+25. [Inserindo Dados no Banco COMERCIO - TABELA CLIENTE](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/25%20-%20Inserindo%20Dados%20no%20Banco%20COMERCIO%20-%20TABELA%20CLIENTE.sql)
 26. []()
 27. []()
 28. []()
