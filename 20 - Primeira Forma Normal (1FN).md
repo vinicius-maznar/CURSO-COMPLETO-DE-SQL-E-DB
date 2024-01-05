@@ -49,12 +49,12 @@
       | 2       | Autor4      |
       ```
 
-- ✔ **Vantagens da 1FN:**
+- ## ✔ **Vantagens da 1FN:**
   - Melhora a eficiência na consulta e manipulação dos dados.
   - Evita redundâncias e facilita a manutenção do banco de dados.
 
 
-- ### 💭🤔 **Considerações Adicionais:**
+- ## 💭🤔 **Considerações Adicionais:**
   - A 1FN é a base para formas normais subsequentes (2FN, 3FN, etc.).
   - É fundamental para garantir a integridade e consistência dos dados em um banco de dados relacional.
   - A aplicação da 1FN depende da natureza dos dados e dos requisitos específicos do projeto.
