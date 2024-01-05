@@ -50,7 +50,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 21. [Cardinalidade e Obrigatoriedade na Modelagem de Dados](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/21%20-%20Cardinalidade%20e%20Obrigatoriedade.md)
 22. [Chave Primaria](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/22%20-%20Chave%20Primaria.md)
 23. [Chave Estrangeira](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/23%20-%20Chave%20Estrangeira.md)
-24. []()
+24. [Modelando o Banco de Dados COMERCIO: Implementando PRIMARY KEY e FOREIGN KEY](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/24%20-Modelando%20o%20Banco%20de%20Dados%20COMERCIO:%20Implementando%20PRIMARY%20KEY%20e%20FOREIGN%20KEY.sql)
 25. []()
 26. []()
 27. []()
