@@ -16,15 +16,16 @@ mysql> INSERT INTO ENDERECO VALUES(NULL,'RUA CAPITAO HERMES','CENTRO','RIO DE JA
 Query OK, 1 row affected (0.00 sec)
 
 mysql> INSERT INTO ENDERECO VALUES(NULL,'RUA PRES VARGAS','JARDINS','SAO PAULO','SP',3);
-Query OK, 1 row affected (0.01 sec)
+Query OK, 1 row affected (0.00 sec)
 
 mysql> INSERT INTO ENDERECO VALUES(NULL,'RUA ALFANDEGA','ESTACIO','RIO DE JANEIRO','RJ',2);
-ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`comercio`.`endereco`, CONSTRAINT `endereco_ibfk_1` FOREIGN KEY (`ID_CLIENTE`) REFERENCES `cliente` (`IDCLIENTE`))
+Query OK, 1 row affected (0.00 sec)
+
 mysql> INSERT INTO ENDERECO VALUES(NULL,'RUA DO OUVIDOR','FLAMENGO','RIO DE JANEIRO','RJ',6);
 Query OK, 1 row affected (0.00 sec)
 
 mysql> INSERT INTO ENDERECO VALUES(NULL,'RUA URUGUAIANA','CENTRO','VITORIA','ES',5);
-Query OK, 1 row affected (0.01 sec)
+Query OK, 1 row affected (0.02 sec)
 */
 
 
@@ -41,10 +42,11 @@ mysql> SELECT * FROM ENDERECO;
 |          1 | RUA ANTONIO SA     | CENTRO   | B. HORIZONTE   | MG     |          4 |
 |          2 | RUA CAPITAO HERMES | CENTRO   | RIO DE JANEIRO | RJ     |          1 |
 |          3 | RUA PRES VARGAS    | JARDINS  | SAO PAULO      | SP     |          3 |
+|          4 | RUA ALFANDEGA      | ESTACIO  | RIO DE JANEIRO | RJ     |          2 |
 |          5 | RUA DO OUVIDOR     | FLAMENGO | RIO DE JANEIRO | RJ     |          6 |
 |          6 | RUA URUGUAIANA     | CENTRO   | VITORIA        | ES     |          5 |
 +------------+--------------------+----------+----------------+--------+------------+
-5 rows in set (0.00 sec)
+6 rows in set (0.00 sec)
 */
 
 /* NOTA: Em relacionamentos (1,1) a chave estrangeira  NÃO SE REPETE */
