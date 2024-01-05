@@ -2,7 +2,8 @@
 
 ## ⁉ **Definição:**
 
-    - Uma chave primária é um atributo ou conjunto de atributos que identifica exclusivamente uma tupla (linha) em uma tabela.
+    - Uma chave primária é um atributo ou conjunto de atributos 
+    que identifica exclusivamente uma tupla (linha) em uma tabela.
     
     - Garante a unicidade e a identificação única de cada registro na tabela.
 
