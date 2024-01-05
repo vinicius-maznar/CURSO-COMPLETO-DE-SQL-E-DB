@@ -47,7 +47,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 18. [Começando a Modelar os Dados](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/18%20-%20Come%C3%A7ando%20a%20Modelar%20os%20Dados.md)
 19. [Breve História da Modelagem de Dados](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/19%20-%20Hist%C3%B3ria%20da%20Modelagem%20de%20Dados.md)
 20. [Primeira Forma Normal](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/20%20-%20Primeira%20Forma%20Normal%20(1FN).md)
-21. []()
+21. [Cardinalidade e Obrigatoriedade na Modelagem de Dados](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/21%20-%20Cardinalidade%20e%20Obrigatoriedade.md)
 22. []()
 23. []()
 24. []()
