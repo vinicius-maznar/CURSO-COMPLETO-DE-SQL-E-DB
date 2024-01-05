@@ -49,7 +49,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 20. [Primeira Forma Normal](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/20%20-%20Primeira%20Forma%20Normal%20(1FN).md)
 21. [Cardinalidade e Obrigatoriedade na Modelagem de Dados](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/21%20-%20Cardinalidade%20e%20Obrigatoriedade.md)
 22. [Chave Primaria](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/22%20-%20Chave%20Primaria.md)
-23. []()
+23. [Chave Estrangeira](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/23%20-%20Chave%20Estrangeira.md)
 24. []()
 25. []()
 26. []()
