@@ -1,4 +1,4 @@
-# 👯‍♀️ **Cardinalidade e Obrigatoriedade na Modelagem de Dados:**
+# 👯‍♀️ **Cardinalidade e Obrigatoriedade na Modelagem de Dados**
 
 ## **Cardinalidade (O MÁXIMO QUE PODERÁ ACONTECER):**
 
