@@ -1,8 +1,8 @@
 # 1️⃣ **PRIMEIRA FORMA NORMAL**
 
-- **Primeira Forma Normal (1FN):**
+- ## **Primeira Forma Normal (1FN):**
   
-  - ⁉ **Definição:**
+  - ### ⁉ **Definição:**
 
     - A primeira forma normal é um princípio na modelagem de dados que garante a eliminação de duplicações e redundâncias em um banco de dados.
 
@@ -15,7 +15,7 @@
   	- CHAVE ARTIFICIAL: É um registro criado, além dos dados originais, para que pertença unanimanente a umr espectivo dado, que não se repete entre outros regitros.
   
   
-  - 🧩 **Características Principais:**
+  - ### 🧩  **Características Principais:**
 
     - Cada coluna em uma tabela deve conter apenas valores atômicos, ou seja, valores indivisíveis.
 
@@ -29,7 +29,7 @@
   	CHAVE PRIMÁRIA (PRIMARY KEY).
 
   
-  - 👩‍🏫 **Exemplo:**
+  - ### 👩‍🏫 **Exemplo:**
     
     - Antes da 1FN: 
       ```plaintext
@@ -54,7 +54,7 @@
   - Evita redundâncias e facilita a manutenção do banco de dados.
 
 
-- 💭🤔 **Considerações Adicionais:**
+- ### 💭🤔 **Considerações Adicionais:**
   - A 1FN é a base para formas normais subsequentes (2FN, 3FN, etc.).
   - É fundamental para garantir a integridade e consistência dos dados em um banco de dados relacional.
   - A aplicação da 1FN depende da natureza dos dados e dos requisitos específicos do projeto.
