@@ -4,7 +4,8 @@
 
     - É uma subconjunto  do conjunto total de registros de uma tabela.
 
-    - A seleção, também conhecida como filtro, é uma operação que extrai um subconjunto de linhas de uma tabela com base em uma condição específica.
+    - A seleção, também conhecida como filtro, é uma operação que extrai um subconjunto de linhas de uma tabela 
+    com base em uma condição específica.
 
     - Utiliza a cláusula `WHERE` em uma consulta SQL. Cláusula de seleção.
 
@@ -32,7 +33,8 @@
 
     - Mostrar algo na tela. É tudo que você quer ver na tela.
 
-    - A projeção é uma operação que extrai um subconjunto de colunas de uma tabela, mostrando apenas os atributos desejados.
+    - A projeção é uma operação que extrai um subconjunto de colunas de uma tabela, 
+    mostrando apenas os atributos desejados.
 
     - Utiliza a cláusula `SELECT` em uma consulta SQL.
 
@@ -63,7 +65,8 @@
 
 ## ⁉ **Definição:**
 
-    - A junção é uma operação que combina linhas de duas ou mais tabelas com base em uma condição de relacionamento entre elas.
+    - A junção é uma operação que combina linhas de duas ou mais tabelas 
+    com base em uma condição de relacionamento entre elas.
     
     - Tipos comuns de junção incluem INNER JOIN, LEFT JOIN, RIGHT JOIN e FULL JOIN.
 
