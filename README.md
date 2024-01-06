@@ -64,8 +64,8 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 
 
 32. [DATA MANIPULATION LANGUAGE - Comandos de DML](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/32%20-%20DATA%20MANIPULATION%20LANGUAGE%20-%20Comandos%20de%20DML.md)
-33. []()
-34. [DML Exercícios](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/34%20-%20DML%20Exerc%C3%ADcios.md)
+33. [DML Exercícios](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/34%20-%20DML%20Exerc%C3%ADcios.md)
+34. []()
 35. []()
 36. []()
 37. []()
