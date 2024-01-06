@@ -61,10 +61,10 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 
 # Seção 2️⃣: FORMATAÇÃO DE LINGUAGENS EM BANCO DE DADOS.
 
-31. [DATA MANIPULATION LANGUAGE - Comandos de DML](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/32%20-%20DATA%20MANIPULATION%20LANGUAGE%20-%20Comandos%20de%20DML.md)
-32. []()
+31. []()
+32. [DATA MANIPULATION LANGUAGE - Comandos de DML](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/32%20-%20DATA%20MANIPULATION%20LANGUAGE%20-%20Comandos%20de%20DML.md)
 33. []()
-34. []()
+34. [DML Exercícios](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/34%20-%20DML%20Exerc%C3%ADcios.md)
 35. []()
 36. []()
 37. []()
@@ -82,3 +82,4 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 49. []()
 50. []()
 51. []()
+52. []()
