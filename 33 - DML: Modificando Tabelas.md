@@ -144,7 +144,7 @@ mysql> SELECT * FROM CLIENTE
 
 ## 👩‍🏫 **EXEMPLO PRÁTICO `DELETE`:**
 
-- `INSERT`
+- `INSERINDO DADOS`
 
 ```SQL INPUT
 INSERT INTO CLIENTE VALUES(NULL,'XXX','M',NULL,'XX');
@@ -226,7 +226,7 @@ mysql> SELECT * FROM CLIENTE;
 7 rows in set (0.00 sec)
 ```
 
-- `ADICIONANDO UMA COLUNA DEPOIS(AFTER) OUTRA`
+## 👩‍🏫 **EXEMPLO PRÁTICO `ADD COLUMN` `AFTER`:**
 
 ```SQL INPUT
 ALTER TABLE PRODUTO
@@ -260,7 +260,7 @@ mysql> DESC PRODUTO;
 5 rows in set (0.01 sec)
 ```
 
-`DROP`
+## 👩‍🏫 **EXEMPLO PRÁTICO `DROP`:**
 
 - `DELETANDO UMA COLUNA ESPECÍFICA`
 
@@ -292,6 +292,8 @@ mysql> DESC PRODUTO;
 +----------------+-------------+------+-----+---------+----------------+
 4 rows in set (0.01 sec)
 ```
+
+## 👩‍🏫 **EXEMPLO PRÁTICO `ADD COLUMN` `FIRST`:**
 
 - `ADICIONANDO UMA COLUNA NO COMEÇO(FIRST) DA TABELA`
 
