@@ -512,21 +512,20 @@ mysql>
 	6 rows in set (0.00 sec)
  	```
 
-
-
-
-- **PASSO 3:** Dando um `UPDATE` nos IDs incorretos com a filtragem para a alteração correta;
+- **PASSO 2:** Dando um `UPDATE` nos IDs incorretos com a filtragem para a alteração correta;
 
 	```SQL INPUT
-UPDATE CLIENTE SET SEXO = 'F'
-WHERE IDCLIENTE IN (6,12,14,13,18,19);
+	UPDATE CLIENTE SET SEXO = 'F'
+	WHERE IDCLIENTE IN (6,12,14,13,18,19);
 	```
 	```SQL OUTPUT
-mysql> UPDATE CLIENTE SET SEXO = 'F'
-    -> WHERE IDCLIENTE IN (6,12,14,13,18,19);
-Query OK, 4 rows affected (0.01 sec)
-Rows matched: 4  Changed: 4  Warnings: 0
-	```
+	mysql> UPDATE CLIENTE SET SEXO = 'F'
+	    -> WHERE IDCLIENTE IN (6,12,14,13,18,19);
+	Query OK, 4 rows affected (0.01 sec)
+	Rows matched: 4  Changed: 4  Warnings: 0
+ 	```
+
+
 
 
 - **PASSO 4:** Dando um `SELECT *` na tabela `CLIENTE` para confirmar as alterações;
