@@ -525,18 +525,41 @@ mysql>
 	Rows matched: 4  Changed: 4  Warnings: 0
  	```
 
-
-
-
-- **PASSO 4:** Dando um `SELECT *` na tabela `CLIENTE` para confirmar as alterações;
+- **PASSO 3:** Dando um `SELECT *` na tabela `CLIENTE` para confirmar as alterações;
 
 	```SQL INPUT
-SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, T.TIPO, T.NUMERO
-FROM CLIENTE C
-INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
-INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
-WHERE C.SEXO = 'M';
+	SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, T.TIPO, T.NUMERO
+	FROM CLIENTE C
+	INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
+	INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
+	WHERE C.SEXO = 'M';
 	```
+	```SQL OUTPUT
+		mysql> SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, T.TIPO, T.NUMERO
+	    -> FROM CLIENTE C
+	    -> INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
+	    -> INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
+	    -> WHERE C.SEXO = 'M';
+	+-----------+---------+------+------------------+-------------+--------------------+------------+----------------+--------+------+----------+
+	| IDCLIENTE | NOME    | SEXO | EMAIL            | CPF         | LOGRADOURO         | BAIRRO     | CIDADE         | ESTADO | TIPO | NUMERO   |
+	+-----------+---------+------+------------------+-------------+--------------------+------------+----------------+--------+------+----------+
+	|         1 | JOAO    | M    | JOAO@IG.COM.BR   | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 87866896 |
+	|         1 | JOAO    | M    | JOAO@IG.COM.BR   | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 99667587 |
+	|         1 | JOAO    | M    | JOAO@IG.COM.BR   | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | COM  | 66687899 |
+	|         2 | CARLOS  | M    | CARLOS@IG.COM.BR | 45612378956 | RUA ALFANDEGA      | ESTACIO    | RIO DE JANEIRO | RJ     | COM  | 54768899 |
+	|         2 | CARLOS  | M    | CARLOS@IG.COM.BR | 45612378956 | RUA ALFANDEGA      | ESTACIO    | RIO DE JANEIRO | RJ     | CEL  | 88687909 |
+	|         5 | JORGE   | M    | JORGE@IG.COM.BR  | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | CEL  | 78458743 |
+	|         5 | JORGE   | M    | JORGE@IG.COM.BR  | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | RES  | 56576876 |
+	|         5 | JORGE   | M    | JORGE@IG.COM.BR  | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | RES  | 89986668 |
+	|         9 | FLAVIO  | M    | FLAVIO@IG.COM    | 4657765     | RUA GUEDES         | CASCADURA  | B. HORIZONTE   | MG     | RES  | 68976565 |
+	|         9 | FLAVIO  | M    | FLAVIO@IG.COM    | 4657765     | RUA GUEDES         | CASCADURA  | B. HORIZONTE   | MG     | CEL  | 99656675 |
+	|        15 | EDUARDO | M    | NULL             | 54376457    | AV CAPITAO ANTUNES | CENTRO     | CURITIBA       | PR     | CEL  | 89966809 |
+	|        17 | ANTONIO | M    | ANTONIO@UOL.COM  | 3423565     | ALAMEDA SAMPAIO    | BOM RETIRO | CURITIBA       | PR     | CEL  | 99655768 |
+	+-----------+---------+------+------------------+-------------+--------------------+------------+----------------+--------+------+----------+
+	12 rows in set (0.00 sec)
+ 	```
+
+
 	```SQL OUTPUT
 mysql> SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, T.TIPO, T.NUMERO
     -> FROM CLIENTE C
