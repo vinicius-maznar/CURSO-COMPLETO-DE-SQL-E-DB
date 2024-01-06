@@ -603,71 +603,49 @@ mysql>
 	- IDs com campos incorretos: 16;
 
 
-- **PASSO 2:** Dando um `SELECT` nos IDs, utilizando a cláusula `IN (INTERVALO)` para uma prévia confirmação antes da alteração;
+- **PASSO 2:** Dando um `SELECT` no IDs para uma prévia confirmação antes da alteração;
 
 	```SQL INPUT
-SELECT * FROM CLIENTE
-WHERE IDCLIENTE = 16;
+	SELECT * FROM CLIENTE
+	WHERE IDCLIENTE = 16;
 	```
 	```SQL OUTPUT
-mysql> SELECT * FROM CLIENTE
-    -> WHERE IDCLIENTE = 16;SELECT * FROM CLIENTE
-+-----------+---------+------+----------------+----------+
-| IDCLIENTE | NOME    | SEXO | EMAIL          | CPF      |
-+-----------+---------+------+----------------+----------+
-|        16 | ANTONIO | F    | ANTONIO@IG.COM | 12436767 |
-+-----------+---------+------+----------------+----------+
-1 row in set (0.00 sec)
-```
-
+	SELECT * FROM CLIENTE
+	WHERE IDCLIENTE = 16;
+	```
+	```SQL OUTPUT
+	mysql> SELECT * FROM CLIENTE
+	    -> WHERE IDCLIENTE = 16;SELECT * FROM CLIENTE
+	+-----------+---------+------+----------------+----------+
+	| IDCLIENTE | NOME    | SEXO | EMAIL          | CPF      |
+	+-----------+---------+------+----------------+----------+
+	|        16 | ANTONIO | F    | ANTONIO@IG.COM | 12436767 |
+	+-----------+---------+------+----------------+----------+
+	1 row in set (0.00 sec)
+	```
+	
 
 - **PASSO 3:** Dando um `UPDATE` nos IDs incorretos com a filtragem para a alteração correta;
 
 	```SQL INPUT
-UPDATE CLIENTE SET SEXO = 'M'
-WHERE IDCLIENTE = 16;
+	UPDATE CLIENTE SET SEXO = 'M'
+	WHERE IDCLIENTE = 16;
 	```
 	```SQL OUTPUT
-mysql> UPDATE CLIENTE SET SEXO = 'M'
-    -> WHERE IDCLIENTE = 16;
-Query OK, 1 row affected (0.00 sec)
-Rows matched: 1  Changed: 1  Warnings: 0
-	```
+	mysql> UPDATE CLIENTE SET SEXO = 'M'
+	    -> WHERE IDCLIENTE = 16;
+	Query OK, 1 row affected (0.00 sec)
+	Rows matched: 1  Changed: 1  Warnings: 0
+```
 
 
 - **PASSO 4:** Dando um `SELECT *` na tabela `CLIENTE` para confirmar as alterações;
 
 	```SQL INPUT
-SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, T.TIPO, T.NUMERO
-FROM CLIENTE C
-INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
-INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
-WHERE C.SEXO = 'F';
+
 	```
 	```SQL OUTPUT
-mysql> SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, T.TIPO, T.NUMERO
-    -> FROM CLIENTE C
-    -> INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
-    -> INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
-    -> WHERE C.SEXO = 'F';
-+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
-| IDCLIENTE | NOME    | SEXO | EMAIL             | CPF         | LOGRADOURO         | BAIRRO     | CIDADE         | ESTADO | TIPO | NUMERO   |
-+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
-|         3 | ANA     | F    | ANA@IG.COM.BR     | 15975312312 | RUA PRES VARGAS    | JARDINS    | SAO PAULO      | SP     | CEL  | 78989765 |
-|         3 | ANA     | F    | ANA@IG.COM.BR     | 15975312312 | RUA PRES VARGAS    | JARDINS    | SAO PAULO      | SP     | CEL  | 99766676 |
-|        11 | GIOVANA | F    | NULL              | 0876655     | RUA VISCONDESSA    | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 33567765 |
-|        11 | GIOVANA | F    | NULL              | 0876655     | RUA VISCONDESSA    | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 88668786 |
-|        11 | GIOVANA | F    | NULL              | 0876655     | RUA VISCONDESSA    | CENTRO     | RIO DE JANEIRO | RJ     | COM  | 55689654 |
-|        12 | KARLA   | F    | KARLA@GMAIL.COM   | 545676778   | RUA NELSON MANDELA | COPACABANA | RIO DE JANEIRO | RJ     | COM  | 88687979 |
-|        13 | DANIELE | F    | DANIELE@GMAIL.COM | 43536789    | RUA ARAUJO LIMA    | CENTRO     | VITORIA        | ES     | COM  | 88965676 |
-|        18 | ELAINE  | F    | ELAINE@GLOBO.COM  | 32567763    | RUA DA LAPA        | LAPA       | SAO PAULO      | SP     | RES  | 89955665 |
-|        19 | CARMEM  | F    | CARMEM@IG.COM     | 787832213   | RUA GERONIMO       | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 77455786 |
-|        19 | CARMEM  | F    | CARMEM@IG.COM     | 787832213   | RUA GERONIMO       | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 89766554 |
-|        20 | ADRIANA | F    | ADRIANA@GMAIL.COM | 88556942    | RUA GOMES FREIRE   | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 77755785 |
-|        20 | ADRIANA | F    | ADRIANA@GMAIL.COM | 88556942    | RUA GOMES FREIRE   | CENTRO     | RIO DE JANEIRO | RJ     | COM  | 44522578 |
-|        21 | JOICE   | F    | JOICE@GMAIL.COM   | 55412256    | RUA GOMES FREIRE   | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 44522578 |
-+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
-13 rows in set (0.00 sec)
+
 	```
 
 - **`TAREFA 5)`** Traga a quantidade total de `HOMENS` e `MULHERS`.
