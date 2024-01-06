@@ -26,7 +26,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 
 # 📄 **Sumário**
 
-# Seção 1️⃣: Introdução a Base de Dados.
+# Seção 1️⃣: BASE DE DADOS: INTRODUÇÃO.
 
 1. [Definições Fundamentais](https://github.com/vinicius-maznar/Banco_de_Dados-e-SQL/blob/main/01-Definicoes_Fundamentais.md)
 2. [Arquitetura de Software](https://github.com/vinicius-maznar/Banco_de_Dados-e-SQL/blob/main/02%20-%20Arquitetura%20de%20Software%20.md)
@@ -59,7 +59,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 29. [Junção](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/29%20-%20Jun%C3%A7%C3%A3o.md)
 30. [Junção: Passo a Passo](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/30%20-%20Jun%C3%A7%C3%A3o%3A%20Passo%20a%20Passo.sql)
 
-# Seção 2️⃣: FORMATAÇÃO DE LINGUAGENS EM BANCO DE DADOS
+# Seção 2️⃣: FORMATAÇÃO DE LINGUAGENS EM BANCO DE DADOS.
 
 31. [DATA MANIPULATION LANGUAGE - Comandos de DML](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/32%20-%20DATA%20MANIPULATION%20LANGUAGE%20-%20Comandos%20de%20DML.md)
 32. []()
