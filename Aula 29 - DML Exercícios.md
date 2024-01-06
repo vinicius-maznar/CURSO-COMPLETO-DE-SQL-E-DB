@@ -636,36 +636,27 @@ mysql>
 	    -> WHERE IDCLIENTE = 16;
 	Query OK, 1 row affected (0.00 sec)
 	Rows matched: 1  Changed: 1  Warnings: 0
-```
-
-
-- **PASSO 4:** Dando um `SELECT *` na tabela `CLIENTE` para confirmar as alterações;
-
-	```SQL INPUT
-
-	```
-	```SQL OUTPUT
-
 	```
 
-- **`TAREFA 5)`** Traga a quantidade total de `HOMENS` e `MULHERS`.
+
+- **PASSO 4:** Traga a quantidade total de `HOMENS` e `MULHERS`.
 Como a consulta é baseada no gênero dos funcionários, deve-se agrupar e separar a contagem por `SEXO`.
 
 
 	```SQL INPUT
-SELECT COUNT(*) AS QUANTIDADE, SEXO
-FROM CLIENTE
-GROUP BY SEXO;
+	SELECT COUNT(*) AS QUANTIDADE, SEXO
+	FROM CLIENTE
+	GROUP BY SEXO;
 	```
 	```SQL OUTPUT
-mysql> SELECT COUNT(*) AS QUANTIDADE, SEXO
-    -> FROM CLIENTE
-    -> GROUP BY SEXO;
-+------------+------+
-| QUANTIDADE | SEXO |
-+------------+------+
-|          8 | M    |
-|         12 | F    |
-+------------+------+
-2 rows in set (0.00 sec)
+	mysql> SELECT COUNT(*) AS QUANTIDADE, SEXO
+	    -> FROM CLIENTE
+	    -> GROUP BY SEXO;
+	+------------+------+
+	| QUANTIDADE | SEXO |
+	+------------+------+
+	|          8 | M    |
+	|         12 | F    |
+	+------------+------+
+	2 rows in set (0.00 sec)
 	```
