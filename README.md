@@ -58,10 +58,11 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 28. [Seleção, Projeção e Junção](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/28%20-%20Sele%C3%A7%C3%A3o,%20Proje%C3%A7%C3%A3o%20e%20Jun%C3%A7%C3%A3o.md)
 29. [Junção](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/29%20-%20Jun%C3%A7%C3%A3o.md)
 30. [Junção: Passo a Passo](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/30%20-%20Jun%C3%A7%C3%A3o%3A%20Passo%20a%20Passo.sql)
+31. [INNER JOIN](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/31%20-%20INNER%20JOIN.md)
 
 # Seção 2️⃣: FORMATAÇÃO DE LINGUAGENS EM BANCO DE DADOS.
 
-31. []()
+
 32. [DATA MANIPULATION LANGUAGE - Comandos de DML](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/32%20-%20DATA%20MANIPULATION%20LANGUAGE%20-%20Comandos%20de%20DML.md)
 33. []()
 34. [DML Exercícios](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/34%20-%20DML%20Exerc%C3%ADcios.md)
