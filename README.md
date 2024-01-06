@@ -1,8 +1,8 @@
-# 🤓📚 Banco de Dados e SQL
+# 🤓📚 **Banco de Dados e SQL**
 
 Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo Professor Felipe Mafra, na plataforma Udemy.
 
-## 👩‍🏫 Propósta Didática
+## 👩‍🏫 **Propósta Didática**
 
 - Entender a diferença entre um Administrador de Dados e um DBA
 - Criar bancos de dados consistentes do ponto de infraestrutura e modelagem.
@@ -24,9 +24,10 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 - Utilizar softwares de modelagem
 - Aplicar seguramente os relacionamentos 1 x 1 , 1 x N, N x N, Generalização e Autorelacionamento, entendendo o porquê de cada um
 
-# 📄 Sumário
+# 📄 **Sumário**
 
-## Seção 1️⃣: Introdução a Base de Dados.
+# Seção 1️⃣: Introdução a Base de Dados.
+
 1. [Definições Fundamentais](https://github.com/vinicius-maznar/Banco_de_Dados-e-SQL/blob/main/01-Definicoes_Fundamentais.md)
 2. [Arquitetura de Software](https://github.com/vinicius-maznar/Banco_de_Dados-e-SQL/blob/main/02%20-%20Arquitetura%20de%20Software%20.md)
 3. [Requisitos para a Modelagem de Dados Conceitual](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/03%20-%20Requisitos%20para%20Modelagem%20de%20Dados%20Conceitual.md)
@@ -57,6 +58,9 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 28. [Seleção, Projeção e Junção](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/28%20-%20Sele%C3%A7%C3%A3o,%20Proje%C3%A7%C3%A3o%20e%20Jun%C3%A7%C3%A3o.md)
 29. [Junção](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/29%20-%20Jun%C3%A7%C3%A3o.md)
 30. [Junção: Passo a Passo](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/30%20-%20Jun%C3%A7%C3%A3o%3A%20Passo%20a%20Passo.sql)
+
+# Seção 2️⃣: FORMATAÇÃO DE LINGUAGENS EM BANCO DE DADOS
+
 31. []()
 32. []()
 33. []()
@@ -77,3 +81,4 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 48. []()
 49. []()
 50. []()
+51. []()
