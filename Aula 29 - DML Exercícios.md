@@ -392,126 +392,127 @@ mysql>
 	| ID_CLIENTE | int(11)                 | YES  | MUL | NULL    |                |
 	+------------+-------------------------+------+-----+---------+----------------+
 	4 rows in set (0.01 sec)
-```
-
-- **PASSO 2:** Com a ajuda da referências das descrições de colunas das tabelas, construa a Query;
-
-```SQL INPUT
-SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF,
-	E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO,
-	T.TIPO, T.NUMERO
-FROM CLIENTE C
-INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
-INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
-```
-```SQL OUTPUT
-mysql> SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, T.TIPO, T.NUMERO
-    -> FROM CLIENTE C
-    -> INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
-    -> INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
-    -> ;
-+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
-| IDCLIENTE | NOME    | SEXO | EMAIL             | CPF         | LOGRADOURO         | BAIRRO     | CIDADE         | ESTADO | TIPO | NUMERO   |
-+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
-|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 87866896 |
-|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 99667587 |
-|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | COM  | 66687899 |
-|         2 | CARLOS  | M    | CARLOS@IG.COM.BR  | 45612378956 | RUA ALFANDEGA      | ESTACIO    | RIO DE JANEIRO | RJ     | COM  | 54768899 |
-|         2 | CARLOS  | M    | CARLOS@IG.COM.BR  | 45612378956 | RUA ALFANDEGA      | ESTACIO    | RIO DE JANEIRO | RJ     | CEL  | 88687909 |
-|         3 | ANA     | F    | ANA@IG.COM.BR     | 15975312312 | RUA PRES VARGAS    | JARDINS    | SAO PAULO      | SP     | CEL  | 78989765 |
-|         3 | ANA     | F    | ANA@IG.COM.BR     | 15975312312 | RUA PRES VARGAS    | JARDINS    | SAO PAULO      | SP     | CEL  | 99766676 |
-|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | CEL  | 78458743 |
-|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | RES  | 56576876 |
-|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | RES  | 89986668 |
-|         9 | FLAVIO  | M    | FLAVIO@IG.COM     | 4657765     | RUA GUEDES         | CASCADURA  | B. HORIZONTE   | MG     | RES  | 68976565 |
-|         9 | FLAVIO  | M    | FLAVIO@IG.COM     | 4657765     | RUA GUEDES         | CASCADURA  | B. HORIZONTE   | MG     | CEL  | 99656675 |
-|        11 | GIOVANA | F    | NULL              | 0876655     | RUA VISCONDESSA    | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 33567765 |
-|        11 | GIOVANA | F    | NULL              | 0876655     | RUA VISCONDESSA    | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 88668786 |
-|        11 | GIOVANA | F    | NULL              | 0876655     | RUA VISCONDESSA    | CENTRO     | RIO DE JANEIRO | RJ     | COM  | 55689654 |
-|        12 | KARLA   | M    | KARLA@GMAIL.COM   | 545676778   | RUA NELSON MANDELA | COPACABANA | RIO DE JANEIRO | RJ     | COM  | 88687979 |
-|        13 | DANIELE | M    | DANIELE@GMAIL.COM | 43536789    | RUA ARAUJO LIMA    | CENTRO     | VITORIA        | ES     | COM  | 88965676 |
-|        15 | EDUARDO | M    | NULL              | 54376457    | AV CAPITAO ANTUNES | CENTRO     | CURITIBA       | PR     | CEL  | 89966809 |
-|        16 | ANTONIO | F    | ANTONIO@IG.COM    | 12436767    | AV CARLOS BARROSO  | JARDINS    | SAO PAULO      | SP     | COM  | 88679978 |
-|        17 | ANTONIO | M    | ANTONIO@UOL.COM   | 3423565     | ALAMEDA SAMPAIO    | BOM RETIRO | CURITIBA       | PR     | CEL  | 99655768 |
-|        18 | ELAINE  | M    | ELAINE@GLOBO.COM  | 32567763    | RUA DA LAPA        | LAPA       | SAO PAULO      | SP     | RES  | 89955665 |
-|        19 | CARMEM  | M    | CARMEM@IG.COM     | 787832213   | RUA GERONIMO       | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 77455786 |
-|        19 | CARMEM  | M    | CARMEM@IG.COM     | 787832213   | RUA GERONIMO       | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 89766554 |
-|        20 | ADRIANA | F    | ADRIANA@GMAIL.COM | 88556942    | RUA GOMES FREIRE   | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 77755785 |
-|        20 | ADRIANA | F    | ADRIANA@GMAIL.COM | 88556942    | RUA GOMES FREIRE   | CENTRO     | RIO DE JANEIRO | RJ     | COM  | 44522578 |
-|        21 | JOICE   | F    | JOICE@GMAIL.COM   | 55412256    | RUA GOMES FREIRE   | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 44522578 |
-+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
-26 rows in set (0.00 sec)
-```
-
-# 👩‍🏫 **TAREFA 2)** Traga um relatório geral de TODOS OS HOMENS (Considerando telefone e endereço);
-
-- **PASSO 1:** Com base na Query construida anteriormente, acrescente o filtro `WHERE` para trazer os clientes do `SEXO MASCULINO` ;
-
-	```SQL INPU
-SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, T.TIPO, T.NUMERO
-FROM CLIENTE C
-INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
-INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
-WHERE C.SEXO = 'M';
-	```
-	```SQL OUTPUT
-	mysql> SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, T.TIPO, T.NUMERO
-    -> FROM CLIENTE C
-    -> INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
-    -> INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
-    -> WHERE C.SEXO = 'M';
-+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
-| IDCLIENTE | NOME    | SEXO | EMAIL             | CPF         | LOGRADOURO         | BAIRRO     | CIDADE         | ESTADO | TIPO | NUMERO   |
-+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
-|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 87866896 |
-|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 99667587 |
-|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | COM  | 66687899 |
-|         2 | CARLOS  | M    | CARLOS@IG.COM.BR  | 45612378956 | RUA ALFANDEGA      | ESTACIO    | RIO DE JANEIRO | RJ     | COM  | 54768899 |
-|         2 | CARLOS  | M    | CARLOS@IG.COM.BR  | 45612378956 | RUA ALFANDEGA      | ESTACIO    | RIO DE JANEIRO | RJ     | CEL  | 88687909 |
-|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | CEL  | 78458743 |
-|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | RES  | 56576876 |
-|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | RES  | 89986668 |
-|         9 | FLAVIO  | M    | FLAVIO@IG.COM     | 4657765     | RUA GUEDES         | CASCADURA  | B. HORIZONTE   | MG     | RES  | 68976565 |
-|         9 | FLAVIO  | M    | FLAVIO@IG.COM     | 4657765     | RUA GUEDES         | CASCADURA  | B. HORIZONTE   | MG     | CEL  | 99656675 |
-|        12 | KARLA   | M    | KARLA@GMAIL.COM   | 545676778   | RUA NELSON MANDELA | COPACABANA | RIO DE JANEIRO | RJ     | COM  | 88687979 |
-|        13 | DANIELE | M    | DANIELE@GMAIL.COM | 43536789    | RUA ARAUJO LIMA    | CENTRO     | VITORIA        | ES     | COM  | 88965676 |
-|        15 | EDUARDO | M    | NULL              | 54376457    | AV CAPITAO ANTUNES | CENTRO     | CURITIBA       | PR     | CEL  | 89966809 |
-|        17 | ANTONIO | M    | ANTONIO@UOL.COM   | 3423565     | ALAMEDA SAMPAIO    | BOM RETIRO | CURITIBA       | PR     | CEL  | 99655768 |
-|        18 | ELAINE  | M    | ELAINE@GLOBO.COM  | 32567763    | RUA DA LAPA        | LAPA       | SAO PAULO      | SP     | RES  | 89955665 |
-|        19 | CARMEM  | M    | CARMEM@IG.COM     | 787832213   | RUA GERONIMO       | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 77455786 |
-|        19 | CARMEM  | M    | CARMEM@IG.COM     | 787832213   | RUA GERONIMO       | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 89766554 |
-+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
-17 rows in set (0.00 sec)
-```
-
-## 👩‍🏫 **ALTERANDO OS CAMPOS ERRADOS NA TABELA ANTERIOR**
-
-- **PASSO 1:** Anote os Ids que possuem campos incorretos;
-
-	- IDs com campos incorretos: 12, 13, 18, 19;
-
-
-- **PASSO 2:** Dando um `SELECT` nos IDs, utilizando a cláusula `IN (INTERVALO)` para uma prévia confirmação antes da alteração;
+ 	```
+	- **PASSO 2:** Com a ajuda da referências das descrições de colunas das tabelas, construa a Query;
 
 	```SQL INPUT
-SELECT * FROM CLIENTE
-WHERE IDCLIENTE IN (6,12,14,13,18,19);
+	SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF,
+		E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO,
+		T.TIPO, T.NUMERO
+	FROM CLIENTE C
+	INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
+	INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE;
 	```
 	```SQL OUTPUT
-mysql> SELECT * FROM CLIENTE
-    -> WHERE IDCLIENTE IN (6,12,14,13,18,19);
-+-----------+---------+------+-------------------+-------------+
-| IDCLIENTE | NOME    | SEXO | EMAIL             | CPF         |
-+-----------+---------+------+-------------------+-------------+
-|         6 | CELIA   | M    | CELIA@IG.COM.BR   | 74896512325 |
-|        12 | KARLA   | M    | KARLA@GMAIL.COM   | 545676778   |
-|        13 | DANIELE | M    | DANIELE@GMAIL.COM | 43536789    |
-|        14 | LORENA  | M    | NULL              | 774557887   |
-|        18 | ELAINE  | M    | ELAINE@GLOBO.COM  | 32567763    |
-|        19 | CARMEM  | M    | CARMEM@IG.COM     | 787832213   |
-+-----------+---------+------+-------------------+-------------+
-6 rows in set (0.00 sec)
-```
+	mysql> SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, 
+		-> E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, 
+		-> T.TIPO, T.NUMERO
+	    -> FROM CLIENTE C
+	    -> INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
+	    -> INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
+	    -> ;
+	+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
+	| IDCLIENTE | NOME    | SEXO | EMAIL             | CPF         | LOGRADOURO         | BAIRRO     | CIDADE         | ESTADO | TIPO | NUMERO   |
+	+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
+	|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 87866896 |
+	|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 99667587 |
+	|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | COM  | 66687899 |
+	|         2 | CARLOS  | M    | CARLOS@IG.COM.BR  | 45612378956 | RUA ALFANDEGA      | ESTACIO    | RIO DE JANEIRO | RJ     | COM  | 54768899 |
+	|         2 | CARLOS  | M    | CARLOS@IG.COM.BR  | 45612378956 | RUA ALFANDEGA      | ESTACIO    | RIO DE JANEIRO | RJ     | CEL  | 88687909 |
+	|         3 | ANA     | F    | ANA@IG.COM.BR     | 15975312312 | RUA PRES VARGAS    | JARDINS    | SAO PAULO      | SP     | CEL  | 78989765 |
+	|         3 | ANA     | F    | ANA@IG.COM.BR     | 15975312312 | RUA PRES VARGAS    | JARDINS    | SAO PAULO      | SP     | CEL  | 99766676 |
+	|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | CEL  | 78458743 |
+	|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | RES  | 56576876 |
+	|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | RES  | 89986668 |
+	|         9 | FLAVIO  | M    | FLAVIO@IG.COM     | 4657765     | RUA GUEDES         | CASCADURA  | B. HORIZONTE   | MG     | RES  | 68976565 |
+	|         9 | FLAVIO  | M    | FLAVIO@IG.COM     | 4657765     | RUA GUEDES         | CASCADURA  | B. HORIZONTE   | MG     | CEL  | 99656675 |
+	|        11 | GIOVANA | F    | NULL              | 0876655     | RUA VISCONDESSA    | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 33567765 |
+	|        11 | GIOVANA | F    | NULL              | 0876655     | RUA VISCONDESSA    | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 88668786 |
+	|        11 | GIOVANA | F    | NULL              | 0876655     | RUA VISCONDESSA    | CENTRO     | RIO DE JANEIRO | RJ     | COM  | 55689654 |
+	|        12 | KARLA   | M    | KARLA@GMAIL.COM   | 545676778   | RUA NELSON MANDELA | COPACABANA | RIO DE JANEIRO | RJ     | COM  | 88687979 |
+	|        13 | DANIELE | M    | DANIELE@GMAIL.COM | 43536789    | RUA ARAUJO LIMA    | CENTRO     | VITORIA        | ES     | COM  | 88965676 |
+	|        15 | EDUARDO | M    | NULL              | 54376457    | AV CAPITAO ANTUNES | CENTRO     | CURITIBA       | PR     | CEL  | 89966809 |
+	|        16 | ANTONIO | F    | ANTONIO@IG.COM    | 12436767    | AV CARLOS BARROSO  | JARDINS    | SAO PAULO      | SP     | COM  | 88679978 |
+	|        17 | ANTONIO | M    | ANTONIO@UOL.COM   | 3423565     | ALAMEDA SAMPAIO    | BOM RETIRO | CURITIBA       | PR     | CEL  | 99655768 |
+	|        18 | ELAINE  | M    | ELAINE@GLOBO.COM  | 32567763    | RUA DA LAPA        | LAPA       | SAO PAULO      | SP     | RES  | 89955665 |
+	|        19 | CARMEM  | M    | CARMEM@IG.COM     | 787832213   | RUA GERONIMO       | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 77455786 |
+	|        19 | CARMEM  | M    | CARMEM@IG.COM     | 787832213   | RUA GERONIMO       | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 89766554 |
+	|        20 | ADRIANA | F    | ADRIANA@GMAIL.COM | 88556942    | RUA GOMES FREIRE   | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 77755785 |
+	|        20 | ADRIANA | F    | ADRIANA@GMAIL.COM | 88556942    | RUA GOMES FREIRE   | CENTRO     | RIO DE JANEIRO | RJ     | COM  | 44522578 |
+	|        21 | JOICE   | F    | JOICE@GMAIL.COM   | 55412256    | RUA GOMES FREIRE   | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 44522578 |
+	+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
+	26 rows in set (0.00 sec)
+	```
+ 
+- **1) Traga um relatório geral de TODOS OS HOMENS (Considerando telefone e endereço);**
+
+	- **PASSO 1:** Com base na Query construida anteriormente, acrescente o filtro `WHERE` para trazer os clientes do SEXO MASCULINO;
+
+   
+	```SQL INPUT
+	SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, T.TIPO, T.NUMERO
+	FROM CLIENTE C
+	INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
+	INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
+	WHERE C.SEXO = 'M';
+	```
+ 	```SQL OUTPUT
+	mysql> SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, E.LOGRADOURO, E.BAIRRO, E.CIDADE, E.ESTADO, T.TIPO, T.NUMERO
+	    -> FROM CLIENTE C
+	    -> INNER JOIN ENDERECO E ON C.IDCLIENTE = E.ID_CLIENTE
+	    -> INNER JOIN TELEFONE T ON C.IDCLIENTE = T.ID_CLIENTE
+	    -> WHERE C.SEXO = 'M';
+	+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
+	| IDCLIENTE | NOME    | SEXO | EMAIL             | CPF         | LOGRADOURO         | BAIRRO     | CIDADE         | ESTADO | TIPO | NUMERO   |
+	+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
+	|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | CEL  | 87866896 |
+	|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 99667587 |
+	|         1 | JOAO    | M    | JOAO@IG.COM.BR    | 12378945613 | RUA CAPITAO HERMES | CENTRO     | RIO DE JANEIRO | RJ     | COM  | 66687899 |
+	|         2 | CARLOS  | M    | CARLOS@IG.COM.BR  | 45612378956 | RUA ALFANDEGA      | ESTACIO    | RIO DE JANEIRO | RJ     | COM  | 54768899 |
+	|         2 | CARLOS  | M    | CARLOS@IG.COM.BR  | 45612378956 | RUA ALFANDEGA      | ESTACIO    | RIO DE JANEIRO | RJ     | CEL  | 88687909 |
+	|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | CEL  | 78458743 |
+	|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | RES  | 56576876 |
+	|         5 | JORGE   | M    | JORGE@IG.COM.BR   | 75689412325 | RUA URUGUAIANA     | CENTRO     | VITORIA        | ES     | RES  | 89986668 |
+	|         9 | FLAVIO  | M    | FLAVIO@IG.COM     | 4657765     | RUA GUEDES         | CASCADURA  | B. HORIZONTE   | MG     | RES  | 68976565 |
+	|         9 | FLAVIO  | M    | FLAVIO@IG.COM     | 4657765     | RUA GUEDES         | CASCADURA  | B. HORIZONTE   | MG     | CEL  | 99656675 |
+	|        12 | KARLA   | M    | KARLA@GMAIL.COM   | 545676778   | RUA NELSON MANDELA | COPACABANA | RIO DE JANEIRO | RJ     | COM  | 88687979 |
+	|        13 | DANIELE | M    | DANIELE@GMAIL.COM | 43536789    | RUA ARAUJO LIMA    | CENTRO     | VITORIA        | ES     | COM  | 88965676 |
+	|        15 | EDUARDO | M    | NULL              | 54376457    | AV CAPITAO ANTUNES | CENTRO     | CURITIBA       | PR     | CEL  | 89966809 |
+	|        17 | ANTONIO | M    | ANTONIO@UOL.COM   | 3423565     | ALAMEDA SAMPAIO    | BOM RETIRO | CURITIBA       | PR     | CEL  | 99655768 |
+	|        18 | ELAINE  | M    | ELAINE@GLOBO.COM  | 32567763    | RUA DA LAPA        | LAPA       | SAO PAULO      | SP     | RES  | 89955665 |
+	|        19 | CARMEM  | M    | CARMEM@IG.COM     | 787832213   | RUA GERONIMO       | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 77455786 |
+	|        19 | CARMEM  | M    | CARMEM@IG.COM     | 787832213   | RUA GERONIMO       | CENTRO     | RIO DE JANEIRO | RJ     | RES  | 89766554 |
+	+-----------+---------+------+-------------------+-------------+--------------------+------------+----------------+--------+------+----------+
+	17 rows in set (0.00 sec)
+	```
+# 👩‍🏫 **ALTERANDO OS CAMPOS ERRADOS NA TABELA ANTERIOR**
+
+- **1) Anote os Ids que possuem campos incorretos;**
+  	- IDs com campos incorretos: 12, 13, 18, 19;
+
+	- **PASSO 1:** Dando um `SELECT` nos IDs, utilizando a cláusula `IN (INTERVALO)` para uma prévia confirmação antes da alteração;
+
+	```SQL INPUT
+	SELECT * FROM CLIENTE
+	WHERE IDCLIENTE IN (6,12,14,13,18,19);
+	```
+	```SQL OUTPUT
+	mysql> SELECT * FROM CLIENTE
+	    -> WHERE IDCLIENTE IN (6,12,14,13,18,19);
+	+-----------+---------+------+-------------------+-------------+
+	| IDCLIENTE | NOME    | SEXO | EMAIL             | CPF         |
+	+-----------+---------+------+-------------------+-------------+
+	|         6 | CELIA   | M    | CELIA@IG.COM.BR   | 74896512325 |
+	|        12 | KARLA   | M    | KARLA@GMAIL.COM   | 545676778   |
+	|        13 | DANIELE | M    | DANIELE@GMAIL.COM | 43536789    |
+	|        14 | LORENA  | M    | NULL              | 774557887   |
+	|        18 | ELAINE  | M    | ELAINE@GLOBO.COM  | 32567763    |
+	|        19 | CARMEM  | M    | CARMEM@IG.COM     | 787832213   |
+	+-----------+---------+------+-------------------+-------------+
+	6 rows in set (0.00 sec)
+ 	```
+
+
 
 
 - **PASSO 3:** Dando um `UPDATE` nos IDs incorretos com a filtragem para a alteração correta;
