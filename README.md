@@ -64,11 +64,11 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 
 
 32. [DATA MANIPULATION LANGUAGE - Comandos de DML](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/32%20-%20DATA%20MANIPULATION%20LANGUAGE%20-%20Comandos%20de%20DML.md)
-33. [DML Exercícios - Parte 1](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/34%20-%20DML%20Exerc%C3%ADcios.md)
-34. []()
-35. []()
-36. []()
-37. []()
+33. [DML Exercícios](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/34%20-%20DML%20Exerc%C3%ADcios%20-%20Parte%201.md)
+34. [Funções](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/35%20-%20Fun%C3%A7%C3%B5es.md)
+35. [VIEWS](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/36%20-%20Views.md)
+36. [Ordenando Dados](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/37%20-%20Ordenando%20Dados.md)
+37. [Iniciando as Procedures](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/38%20-%20Iniciando%20as%20Procedures.md)
 38. []()
 39. []()
 40. []()
@@ -82,5 +82,3 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 48. []()
 49. []()
 50. []()
-51. []()
-52. []()
