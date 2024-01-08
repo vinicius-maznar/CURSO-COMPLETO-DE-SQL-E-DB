@@ -460,7 +460,7 @@ mysql> SELECT  C.NOME,
 26 rows in set (0.00 sec)
 ```
 
-# ⚠ **NOTA 4: AGRUPANDO OS DADOS EM UMA `VIEW`**
+# ⚠ **NOTA 6: AGRUPANDO OS DADOS EM UMA `VIEW`**
 ```SQL
 /*INPUT*/
 SELECT * FROM ALUNOS
