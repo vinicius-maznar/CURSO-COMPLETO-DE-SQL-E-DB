@@ -68,7 +68,7 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 35. [VIEWS](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/36%20-%20Views.md)
 36. [Ordenando Dados](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/37%20-%20Ordenando%20Dados.md)
 
-# Seção 3️⃣: PROGRAMANDO EM SQL NO BANDO DE DADOS.
+# Seção 3️⃣: PROGRAMANDO EM SQL NO BANCO DE DADOS.
     
 37. [Iniciando as Procedures](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/38%20-%20Iniciando%20as%20Procedures.md)
 38. [PROCEDURES](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/38%20-%20Iniciando%20as%20Procedures.md)
