@@ -62,12 +62,14 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 
 # Seção 2️⃣: FORMATAÇÃO DE LINGUAGENS EM BANCO DE DADOS.
 
-
 32. [DATA MANIPULATION LANGUAGE - Comandos de DML](https://github.com/vinicius-maznar/SQL-e-Banco-de-Dados/blob/main/32%20-%20DATA%20MANIPULATION%20LANGUAGE%20-%20Comandos%20de%20DML.md)
 33. [DML Exercícios](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/34%20-%20DML%20Exerc%C3%ADcios%20-%20Parte%201.md)
 34. [Funções](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/35%20-%20Fun%C3%A7%C3%B5es.md)
 35. [VIEWS](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/36%20-%20Views.md)
 36. [Ordenando Dados](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/37%20-%20Ordenando%20Dados.md)
+
+# Seção 3️⃣: PROGRAMANDO EM SQL NO BANDO DE DADOS.
+    
 37. [Iniciando as Procedures](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/38%20-%20Iniciando%20as%20Procedures.md)
 38. [PROCEDURES](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/38%20-%20Iniciando%20as%20Procedures.md)
 39. [Procedures para Inserir Dados](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/39%20-%20Procedures%20para%20Inserir%20Dados.md)
@@ -82,3 +84,13 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 48. []()
 49. []()
 50. []()
+51. []()
+52. []()
+53. []()
+54. []()
+55. []()
+56. []()
+57. []()
+58. []()
+59. []()
+60. 
