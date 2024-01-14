@@ -90,7 +90,10 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 54. [Auditoria e Comunicação entre Bancos de Dados](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/54%20-%20Auditoria%20e%20Comunica%C3%A7%C3%A3o%20entre%20Bancos%20de%20Dados.md)
 55. [Auditando uma Tabela com TRIGGER](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/55%20-%20Auditando%20uma%20Tabela%20com%20TRIGGER.md)
 56. [Autorelacionamento](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/56%20-%20Autorelacionamento.md)
-57. []()
+
+# Seção 4️⃣: MICROSOFT SQL
+
+57. [A Cláusula GO no MSSQL](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/57%20-%20A%20Cl%C3%A1usula%20GO%20no%20MSSQL.md)
 58. []()
 59. []()
-60. 
+60. []()
