@@ -91,9 +91,29 @@ Business Intelligence, SQL Server, MySQL, Oracle, T-SQL e PLSQL. Ministrado pelo
 55. [Auditando uma Tabela com TRIGGER](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/55%20-%20Auditando%20uma%20Tabela%20com%20TRIGGER.md)
 56. [Autorelacionamento](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/56%20-%20Autorelacionamento.md)
 
-# Seção 4️⃣: MICROSOFT SQL
+# Seção 4️⃣: POSTGRE-SQL
 
-57. [A Cláusula GO no MSSQL](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/57%20-%20A%20Cl%C3%A1usula%20GO%20no%20MSSQL.md)
-58. []()
-59. []()
-60. []()
+57. [Dados Brutos](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%201%20PostgreSQL%20-%20DEPARTAMENTOS%2C%20Dados%20Brutos.sql)
+58. [Medidas Estatísticas Parte 1](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%2010%20PostgreSQL%20-%20MAQUINAS%2C%20Medidas%20Estat%C3%ADsticas%20-%20Mediana.sql)
+59. [Coêficiente de Variação e Juntando Tudo](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%2011%20PostgreSQL%20-%20MAQUINAS%2C%20Co%C3%AAficiente%20de%20Varia%C3%A7%C3%A3o%20e%20Juntando%20Tudo.sql)
+60. [Query para Calcular a MODA](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%2012%20PostgreSQL%20-%20MAQUINAS%2C%20Query%20para%20Calcular%20a%20MODA.sql)
+61. [Criando o Banco de Dados do Projeto](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%202%20PostgreSQL%20-%20DEPARTAMENTOS%2C%20Criando%20o%20Banco%20de%20Dados%20do%20Projeto.sql)
+62. [Funções de Agregação](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%203%20PostgreSQL%20-%20DEPARTAMENTOS%2C%20Fun%C3%A7%C3%B5es%20de%20Agrega%C3%A7%C3%A3o.sql)
+63. [Medidas Estatísticas Parte 2](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%204%20PostgreSQL%20-%20DEPARTAMENTOS%2C%20Medidas%20Estat%C3%ADsticas.sql)
+64. [Análise Explanatória](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%205%20PostgreSQL%20-%20DEPARTAMENTOS%2C%20An%C3%A1lise%20Explanat%C3%B3ria.sql)
+65. [DB Relacional e BD Data Science](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%206%20PostgreSQL%20-%20DEPARTAMENTOS%2C%20DB%20Relacional%20e%20BD%20Data%20Science.sql)
+66. [Import e Verificando a MODA](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%207%20PostgreSQL%20-%20MAQUINAS%2C%20Import%20e%20Verificando%20a%20MODA.sql)
+67. [Análise e Amplitude de um Set de Dados](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%208%20PostgreSQL%20-%20MAQUINAS%2C%20An%C3%A1lise%2C%20Amplitude%20de%20um%20Set%20de%20Dados.sql)
+68. [Novas Medidas, Desvio Padrão e Variância](https://github.com/vinicius-maznar/CURSO-COMPLETO-DE-SQL-E-DB/blob/main/AULA%209%20PostgreSQL%20-%20MAQUINAS%2C%20Novas%20Medidas%2C%20Desvio%20Padr%C3%A3o%20e%20Vari%C3%A2ncia.sql)
+69. []()
+70. []()
+71. []()
+72. []()
+73. []()
+74. []()
+75. 
+
+    
+
+
+
